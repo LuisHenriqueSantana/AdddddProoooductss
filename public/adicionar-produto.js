@@ -4,7 +4,7 @@ document.getElementById('produtoForm').addEventListener('submit', async function
     const formData = new FormData(this); // Cria FormData com os dados do formulário
   
     try {
-      const response = await fetch('/produtos', {
+      const response = await fetch('https://adddddprooooductss.onrender.com/produtos', {
         method: 'POST',
         body: formData
       });
