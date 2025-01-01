@@ -1,18 +1,15 @@
 {
-  "name": "my-app",
+  "name": "meu-projeto",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.2",
-    "multer": "^1.4.5-lts.1",
-    "sharp": "^0.33.5",
-    "uuid": "^11.0.3"
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }

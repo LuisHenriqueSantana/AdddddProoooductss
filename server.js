@@ -3,8 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
 const app = express();
-
-// Usando a porta fornecida pelo Render ou 3000 como fallback
 const port = process.env.PORT || 3000;
 
 // Configuração do armazenamento de arquivos
@@ -108,7 +106,6 @@ app.delete('/produtos/:id', (req, res) => {
   });
 });
 
-// Iniciando o servidor
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
