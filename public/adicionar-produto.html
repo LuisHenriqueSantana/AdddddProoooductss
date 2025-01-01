@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar Produto</title>
+</head>
+<body>
+  <h1>Adicionar Produto</h1>
+
+  <form id="produtoForm">
+    <input type="text" name="nome" placeholder="Nome do Produto" required>
+    <input type="text" name="descricao" placeholder="descricao" required>
+    <input type="number" name="preco" placeholder="Preço" required>
+    <input type="number" name="precoPromocional" placeholder="Preço Promocional" required>
+    <input type="number" name="peso" placeholder="Peso (kg)" required>
+    <input type="text" name="categoria" placeholder="categoria" required>
+    <input type="text" name="subcategoria" placeholder="subcategoria" required>
+    <input type="file" name="imagem" required>
+    <button type="submit">Adicionar Produto</button>
+  </form>
+
+  <h2>Produtos Cadastrados</h2>
+  <div id="listaProdutos"></div>
+
+  <script src="adicionar-produto.js"></script>
+</body>
+</html>
